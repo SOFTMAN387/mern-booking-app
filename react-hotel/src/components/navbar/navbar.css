@@ -1,0 +1,39 @@
+.navbar {
+    height: 50px;
+    background-color: #e7d91bc7;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.softman-logo {
+    color: white;
+    text-decoration: none;
+}
+
+.softman-logo:hover {
+    font-weight: 600;
+    text-shadow: 2px 2px gray;
+    font-size: medium;
+}
+
+.navContainer {
+    width: 100%;
+    max-width: 1024px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-weight: 500;
+}
+
+.navButton {
+    margin-left: 20px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #003580;
+}
